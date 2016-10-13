@@ -84,6 +84,7 @@ php_go() {
 
 	sed -i "s/display_startup_errors = Off/display_startup_errors = On/g" ${php_config_file}
 	sed -i "s/display_errors = Off/display_errors = On/g" ${php_config_file}
+	sed -i "s/short_open_tag = .*/short_open_tag = On/" ${php_config_file}
 
 	if [ ! -f "{$xdebug_config_file}" ]; then
 		cat << EOF > ${xdebug_config_file}
