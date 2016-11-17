@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Assingment 3</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+</head>
+<body>
+<div class="container">
+	<h2>Webtech | Assignment 3</h2>
+	<hr>
+	<form name="assignment3form" class="form-horizontal" method="post" id="wtForm">
+  <div class="form-group">
+    <label for="title" class="col-sm-2 control-label">Title</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" name="url" id="title" placeholder="Title" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="url" class="col-sm-2 control-label">URL</label>
+    <div class="col-sm-10">
+      <input type="url" class="form-control" name="url" id="url" placeholder="http://www.aau.at" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="posx" class="col-sm-2 control-label">Pos X</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" name="posx" id="posx" min="1" value="1" placeholder="Pos X min val=1">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="posy" class="col-sm-2 control-label">Pos Y</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" name="posy" id="posy" min="1" value="1" placeholder="Pos Y min val=1">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </div>
+</form>
+</div>
+<script src="js/forms.js"></script>
+</body>
+</html>

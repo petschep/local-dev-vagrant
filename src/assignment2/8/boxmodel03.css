@@ -1,0 +1,35 @@
+#container{
+    max-width: 980px;
+    margin:0 auto;
+}
+#logo{
+    height: 100px;
+    background: url('header.gif'); 
+    background-repeat: repeat top left;
+}
+#logo h1{
+    text-align: center;
+}
+#navi, #content{
+    float: left;
+    margin: 0; padding: 0;
+}
+#navi{
+    width: 200px;
+    min-height: 200px;
+    background: #A8FDA9;
+}
+#content{
+    width: 75%;
+    max-width: 740px;
+    margin-left:20px;
+    min-height: 300px;
+    padding: 10px;
+    margin-bottom:20px;
+    border: 1px solid #A8FDA9;
+}
+#bottom{
+    margin-top:20px;
+    clear: both;
+    background: url('footer.gif') repeat top left;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Box model</title>
+	<style>
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+		header, aside{
+			background: url(../files/bg02.jpg) repeat top left;
+		}
+		header{
+			height: 50px;
+			text-align: center;
+			padding: 40px;	
+		}
+		h1{
+			color: yellow;
+			font-size:30px;
+			font-weight: bold;
+			text-shadow: 2px 2px blue;
+		}
+		aside, article{
+			float: left;
+			box-sizing:border-box;
+		}
+		aside{
+			width: 10em;
+			padding-left: 30px;
+			min-height: 600px;
+			box-sizing: border-box;
+			height: 100%;
+
+		}
+		aside li{
+			color: yellow;
+			font-weight: bold;
+			text-shadow: 2px 2px blue;
+
+		}
+		article{
+			padding: 10px;
+			width: 80%
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>heading</h1>
+	</header>
+	<aside>
+		<ul>
+			<li>List 1</li>
+			<li>List 2</li>
+			<li>List 3</li>
+		</ul>
+	</aside>
+	<article>
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+	</article>
+</body>
+</html>

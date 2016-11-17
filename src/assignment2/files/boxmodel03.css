@@ -1,0 +1,12 @@
+#container{
+    max-width: 980px;
+    margin:0 auto;
+}
+#logo{
+    height: 100px;
+    background: url('header.gif'); 
+    background-repeat: repeat top left;
+}
+#logo h1{
+    text-align: center;
+}

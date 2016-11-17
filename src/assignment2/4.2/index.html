@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.datagrid table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+}
+
+.datagrid {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden;
+    border: 1px solid #8C8C8C;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.datagrid table td,
+.datagrid table th {
+    padding: 3px 10px;
+}
+
+.datagrid table thead th {
+    background-color: #3E7F2E;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 0px solid #000000;
+}
+
+.datagrid table thead th:first-child {
+    border: none;
+}
+
+.datagrid table tbody td {
+    color: black;
+    border-style: dashed !important;
+    border-left: 3px solid #000000;
+    font-size: 12px;
+    border-bottom: 4px solid #000000;
+    font-weight: normal;
+}
+
+.datagrid table tbody .alt td {
+    background: #EBEBEB;
+    color: black;
+}
+
+.datagrid table tbody td:first-child {
+    border-left: none;
+}
+
+.datagrid table tbody tr:last-child td {
+    border-bottom: none;
+}
+a{
+	text-decoration: none; font-weight: bold; color: #e00000;
+}
+a:visited{
+	text-decoration: none; font-weight: bold; color: #000000;
+}
+a:hover{
+	text-decoration: none; font-weight: bold; background-color: #ff0;
+}
+a:active{
+	text-decoration: none; font-weight: bold; background-color: #cff;
+}
+	</style>
+</head>
+<body >
+	<h1>List of Hotels</h1>
+	<div class="datagrid">
+	<table class="tg" cellpadding="0" border="1">
+		<thead>
+			<tr>
+			<th>hotelname</th>
+			<th>category</th>
+			<th>city</th>
+			</tr>
+		</thead>
+		<tbody border="1">
+			<tr>
+				<td>hotel carinthia</td>
+				<td>****</td>
+				<td>Velden</td>
+			</tr>
+			<tr>
+				<td>hotel carinthia</td>
+				<td>****</td>
+				<td>Velden</td>
+			</tr>
+			<tr>
+				<td><a href="../4.1/index.html">schlosshotel wörthersee</a></td>
+				<td>****</td>
+				<td>Velden</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+</body>
+</html>

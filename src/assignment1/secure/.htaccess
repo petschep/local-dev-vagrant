@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "My Protected Area"
+AuthUserFile /vagrant/src/secure/.htpasswd
+Require valid-user
